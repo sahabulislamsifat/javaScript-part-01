@@ -45,7 +45,7 @@
 // console.log(text3);
 
 // let text = "      Hello World      ";
-let text = "Hello World";
+// let text = "Hello World";
 // let text2 = text.trim();
 
 // console.log(text);
@@ -55,7 +55,16 @@ let text = "Hello World";
 // console.log(typeof text.charAt([500]));
 // console.log(typeof text[500]);
 
-console.log(text.split(" "));
-console.log(text.split(","));
-console.log(text.split());
-console.log(text.split(""));
+// console.log(text.split(" "));
+// console.log(text.split(","));
+// console.log(text.split());
+// console.log(text.split(""));
+
+// String Template literals
+let country = "Bangladesh";
+let a = 17;
+let b = 1;
+
+let sentence = `I love ${country} and It's Population about ${a + b} crore.`;
+
+console.log(sentence);
